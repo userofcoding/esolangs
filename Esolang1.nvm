@@ -1,0 +1,28 @@
+make,variable1,1
+print,$variable1, Variable 1
+print,Hello*44 World!
+input,How are you?
+if,$answer,==,Good
+print,That's good!
+endif
+if,$answer,==,Bad
+print,That's bad... :(
+endif
+rint,$variable2
+make,i,1
+loop,5
+print,$i
+make,i,$i,+,1
+endloop
+
+input,What's your name?
+print,Wow. Hello ,$answer,!
+
+loop,3
+make,cool,$answer,++,$answer
+print,$cool
+endloop
+
+print,Hello*44 World!
+input,What*44s Your Friend*44s Name?
+print,Hello*44 ,$answer
